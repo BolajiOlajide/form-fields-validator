@@ -1,0 +1,19 @@
+{
+  "name": "form-fields-validator",
+  "version": "1.0.0",
+  "description": "A simple packahe for validating form fields in REACT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BolajiOlajide/form-fields-validator.git"
+  },
+  "author": "Bolaji Olajide",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BolajiOlajide/form-fields-validator/issues"
+  },
+  "homepage": "https://github.com/BolajiOlajide/form-fields-validator#readme"
+}
