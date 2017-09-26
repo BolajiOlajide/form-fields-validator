@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = function validateNull(fields, callback) {
-  
-};
+const validateNull = require('./validateNull');
 
-
+module.exports = {
+  validateNull,
+}

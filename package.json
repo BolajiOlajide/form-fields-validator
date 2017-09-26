@@ -4,7 +4,7 @@
   "description": "A simple packahe for validating form fields in REACT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jasmine"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/BolajiOlajide/form-fields-validator/issues"
   },
-  "homepage": "https://github.com/BolajiOlajide/form-fields-validator#readme"
+  "homepage": "https://github.com/BolajiOlajide/form-fields-validator#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "jasmine": "^2.8.0",
+    "mocha": "^3.5.3",
+    "nyc": "^11.2.1"
+  }
 }
