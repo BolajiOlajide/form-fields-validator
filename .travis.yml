@@ -2,7 +2,7 @@ language: javascript
 sudo: required
 language: node_js
 node_js: stable
-install: "npm test"
+install: "npm install"
 # command to run tests
 script:
-  - nyc --reporter=lcov --reporter=text-lcov npm test && cat ./coverage/lcov.info | coveralls
+  - npm test
